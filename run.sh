@@ -1,1 +1,0 @@
-dotnet publish/Server.dll --Process=1 --StartConfig=./Config/StartConfig/Release --Console=1

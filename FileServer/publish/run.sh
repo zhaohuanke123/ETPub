@@ -1,0 +1,1 @@
+dotnet FileServer.dll ../publish
