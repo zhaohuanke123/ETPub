@@ -1,19 +1,19 @@
 #!/bin/bash
 
-# 停止第一个服务
-if [ -f server_pid.txt ]; then
-  SERVER_PID=$(cat server_pid.txt)
-  kill $SERVER_PID
-  echo "Server service stopped."
+# 查找并杀死 Server.dll 的进程
+server_pid=$(ps aux | grep 'dotnet Server.dll' | grep -v grep | awk '{print $2}')
+if [ -n "$server_pid" ]; then
+    kill $server_pid
+    echo "Server.dll 进程已停止。"
 else
-  echo "Server service is not running."
+    echo "没有找到 Server.dll 进程。"
 fi
 
-# 停止第二个服务
-if [ -f fileserver_pid.txt ]; then
-  FILESERVER_PID=$(cat fileserver_pid.txt)
-  kill $FILESERVER_PID
-  echo "FileServer service stopped."
+# 查找并杀死 FileServer.dll 的进程
+fileserver_pid=$(ps aux | grep 'dotnet FileServer.dll' | grep -v grep | awk '{print $2}')
+if [ -n "$fileserver_pid" ]; then
+    kill $fileserver_pid
+    echo "FileServer.dll 进程已停止。"
 else
-  echo "FileServer service is not running."
+    echo "没有找到 FileServer.dll 进程。"
 fi
