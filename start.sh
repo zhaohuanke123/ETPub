@@ -1,5 +1,5 @@
 #!/bin/bash
-nohup sh -c '/etc/mongodb/bin/mongod -f /etc/mongodb/conf/mongodb.conf' > /etc/mongodb/log/mongodb.log 2>&1 &
+nohup sh -c 'cd /usr/mongodb && bin/mongod -f /etc/mongodb/conf/mongodb.conf' > /etc/mongodb/log/mongodb.log 2>&1 &
 echo "MongoDB 服务已启动。"
 
 # 启动第一个程序
