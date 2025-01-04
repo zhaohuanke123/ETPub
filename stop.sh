@@ -17,3 +17,12 @@ if [ -n "$fileserver_pid" ]; then
 else
     echo "没有找到 FileServer.dll 进程。"
 fi
+
+# 查找并杀死 MongoDB 的进程
+mongod_pid=$(ps aux | grep '/etc/mongodb/bin/mongod' | grep -v grep | awk '{print $2}')
+if [ -n "$mongod_pid" ]; then
+    kill $mongod_pid
+    echo "MongoDB 服务已停止。"
+else
+    echo "没有找到 MongoDB 服务。"
+fi
