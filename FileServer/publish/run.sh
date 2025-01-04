@@ -1,1 +1,1 @@
-dotnet FileServer.dll ../publish
+nohup dotnet FileServer.dll ../publish
