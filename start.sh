@@ -1,4 +1,6 @@
 #!/bin/bash
+nohup sh -c '/etc/mongodb/bin/mongod -f /etc/mongodb/conf/mongodb.conf' > /etc/mongodb/log/mongodb.log 2>&1 &
+echo "MongoDB 服务已启动。"
 
 # 启动第一个程序
 nohup sh -c 'cd /ETPub/Server/publish && dotnet Server.dll --Process=1 --StartConfig=../Config/StartConfig/Release --Console=1' > /ETPub/Server/publish/output.log 2>&1 &
