@@ -19,7 +19,7 @@ else
 fi
 
 # 查找并杀死 MongoDB 的进程
-mongod_pid=$(ps aux | grep '/etc/mongodb/bin/mongod' | grep -v grep | awk '{print $2}')
+mongod_pid=$(ps aux | grep '/bin/mongod' | grep -v grep | awk '{print $2}')
 if [ -n "$mongod_pid" ]; then
     kill $mongod_pid
     echo "MongoDB 服务已停止。"
