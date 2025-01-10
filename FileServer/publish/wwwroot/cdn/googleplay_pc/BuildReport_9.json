@@ -2,12 +2,12 @@
     "Summary": {
         "YooVersion": "1.2.4",
         "UnityVersion": "2020.3.33f1",
-        "BuildDate": "2025/1/10 19:27:48",
+        "BuildDate": "2025/1/10 19:34:21",
         "BuildSeconds": 7,
         "BuildTarget": 19,
         "BuildPipeline": 1,
         "BuildMode": 1,
-        "BuildVersion": 8,
+        "BuildVersion": 9,
         "BuildinTags": "buildin",
         "EnableAddressable": true,
         "CopyBuildinTagFiles": false,
@@ -19,11 +19,11 @@
         "AssetFileTotalCount": 369,
         "MainAssetTotalCount": 162,
         "AllBundleTotalCount": 37,
-        "AllBundleTotalSize": 46925136,
+        "AllBundleTotalSize": 46927014,
         "BuildinBundleTotalCount": 22,
-        "BuildinBundleTotalSize": 18110884,
+        "BuildinBundleTotalSize": 18112762,
         "EncryptedBundleTotalCount": 37,
-        "EncryptedBundleTotalSize": 46925136,
+        "EncryptedBundleTotalSize": 46927014,
         "RawBundleTotalCount": 0,
         "RawBundleTotalSize": 0
     },
@@ -689,7 +689,7 @@
                 "buildin"
             ],
             "MainBundleName": "assets/assetspackage.bundle",
-            "MainBundleSize": 1318,
+            "MainBundleSize": 1320,
             "DependBundles": [],
             "DependAssets": []
         },
@@ -1639,26 +1639,26 @@
             ]
         },
         {
-            "Address": "Code/Hotfix/Code4.dll.bytes",
-            "AssetPath": "Assets/AssetsPackage/Code/Hotfix/Code4.dll.bytes",
-            "AssetGUID": "131ed11c76a60c8409c930ce838af167",
+            "Address": "Code/Hotfix/Code5.dll.bytes",
+            "AssetPath": "Assets/AssetsPackage/Code/Hotfix/Code5.dll.bytes",
+            "AssetGUID": "4d451b157dfce4d47ad6604d0bb8c019",
             "AssetTags": [
                 "buildin"
             ],
             "MainBundleName": "assets/assetspackage/code/hotfix.bundle",
-            "MainBundleSize": 534525,
+            "MainBundleSize": 536401,
             "DependBundles": [],
             "DependAssets": []
         },
         {
-            "Address": "Code/Hotfix/Code4.pdb.bytes",
-            "AssetPath": "Assets/AssetsPackage/Code/Hotfix/Code4.pdb.bytes",
-            "AssetGUID": "dc79d9b2581c9ad4682fdc18acefe4c4",
+            "Address": "Code/Hotfix/Code5.pdb.bytes",
+            "AssetPath": "Assets/AssetsPackage/Code/Hotfix/Code5.pdb.bytes",
+            "AssetGUID": "3c969bb2aa359914a98af8f06d7f1437",
             "AssetTags": [
                 "buildin"
             ],
             "MainBundleName": "assets/assetspackage/code/hotfix.bundle",
-            "MainBundleSize": 534525,
+            "MainBundleSize": 536401,
             "DependBundles": [],
             "DependAssets": []
         },
@@ -2933,10 +2933,10 @@
         },
         {
             "BundleName": "assets/assetspackage.bundle",
-            "FileName": "451680c7c0f423f6aa0e27d08f184464",
-            "FileHash": "451680c7c0f423f6aa0e27d08f184464",
-            "FileCRC": "8348053f",
-            "FileSize": 1318,
+            "FileName": "f81d03a2b6dabe6fef697db80fec3fc6",
+            "FileHash": "f81d03a2b6dabe6fef697db80fec3fc6",
+            "FileCRC": "887b4bd3",
+            "FileSize": 1320,
             "Tags": [
                 "buildin"
             ],
@@ -3114,10 +3114,10 @@
         },
         {
             "BundleName": "assets/assetspackage/code/hotfix.bundle",
-            "FileName": "a64255320fe446128bda743f51341045",
-            "FileHash": "a64255320fe446128bda743f51341045",
-            "FileCRC": "7221eb8a",
-            "FileSize": 534525,
+            "FileName": "aea6ac76b7285e4126236b27fb88905d",
+            "FileHash": "aea6ac76b7285e4126236b27fb88905d",
+            "FileCRC": "1b376733",
+            "FileSize": 536401,
             "Tags": [
                 "buildin"
             ],
