@@ -1,97 +1,79 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.22)
 
-project(RecastNavigation)
-
-# lib versions
-SET(SOVERSION 1)
-set(LIB_VERSION 1.6.0)
-string(REPLACE "." "," LIB_VERSION_NUM "${LIB_VERSION}.0")
-
-set_property(GLOBAL PROPERTY CXX_STANDARD 98)
-
-option(RECASTNAVIGATION_DEMO "Build demo" ON)
-option(RECASTNAVIGATION_TESTS "Build tests" ON)
-option(RECASTNAVIGATION_EXAMPLES "Build examples" ON)
-option(RECASTNAVIGATION_DT_POLYREF64 "Use 64bit polyrefs instead of 32bit for Detour" OFF)
-option(RECASTNAVIGATION_DT_VIRTUAL_QUERYFILTER "Use dynamic dispatch for dtQueryFilter in Detour to allow for custom filters" OFF)
-option(RECASTNAVIGATION_ENABLE_ASSERTS "Enable custom recastnavigation asserts" "$<IF:$<CONFIG:Debug>,ON,OFF>")
-
-if(MSVC AND BUILD_SHARED_LIBS)
-    set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
-endif()
-
-include(CMakePackageConfigHelpers)
-include(GNUInstallDirs)
-
-configure_file(
-    "${RecastNavigation_SOURCE_DIR}/version.h.in"
-    "${RecastNavigation_BINARY_DIR}/version.h")
-install(FILES "${RecastNavigation_BINARY_DIR}/version.h" DESTINATION
-        ${CMAKE_INSTALL_INCLUDEDIR}/recastnavigation)
-
-# Needed for recastnavigation.pc.in
-set(prefix ${CMAKE_INSTALL_PREFIX})
-set(exec_prefix "\${prefix}")
-set(libdir "${CMAKE_INSTALL_FULL_LIBDIR}")
-set(bindir "${CMAKE_INSTALL_FULL_BINDIR}")
-set(includedir "${CMAKE_INSTALL_FULL_INCLUDEDIR}")
-set(PACKAGE_VERSION "${LIB_VERSION}")
-if(RECASTNAVIGATION_DT_POLYREF64)
-    set(PKG_CONFIG_CFLAGS "${PKG_CONFIG_CFLAGS} -DDT_POLYREF64")
-endif()
-if(RECASTNAVIGATION_DT_VIRTUAL_QUERYFILTER)
-    set(PKG_CONFIG_CFLAGS "${PKG_CONFIG_CFLAGS} -DDT_VIRTUAL_QUERYFILTER")
-endif()
-configure_file(
-        "${RecastNavigation_SOURCE_DIR}/recastnavigation.pc.in"
-        "${RecastNavigation_BINARY_DIR}/recastnavigation.pc"
-        @ONLY)
-install(FILES "${RecastNavigation_BINARY_DIR}/recastnavigation.pc"
-        DESTINATION "${CMAKE_INSTALL_LIBDIR}/pkgconfig")
-
-add_subdirectory(DebugUtils)
-add_subdirectory(Detour)
-add_subdirectory(DetourCrowd)
-add_subdirectory(DetourTileCache)
-add_subdirectory(Recast)
-
-configure_package_config_file(
-    ${PROJECT_SOURCE_DIR}/recastnavigation-config.cmake.in
-    recastnavigation-config.cmake
-    INSTALL_DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/recastnavigation
-)
-
-write_basic_package_version_file(
-    recastnavigation-config-version.cmake
-    VERSION ${LIB_VERSION}
-    COMPATIBILITY AnyNewerVersion
-)
-
-export(
-    EXPORT recastnavigation-targets
-    NAMESPACE RecastNavigation::
-    FILE recastnavigation-targets.cmake
-)
-
-install(
-    EXPORT recastnavigation-targets
-    NAMESPACE RecastNavigation::
-    FILE recastnavigation-targets.cmake
-    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/recastnavigation
-)
-
-install(
-    FILES
-        ${PROJECT_BINARY_DIR}/recastnavigation-config.cmake
-        ${PROJECT_BINARY_DIR}/recastnavigation-config-version.cmake
-    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/recastnavigation
-)
-
-if (RECASTNAVIGATION_DEMO)
-    add_subdirectory(RecastDemo)
+if ( WIN32 AND NOT CYGWIN AND NOT ( CMAKE_SYSTEM_NAME STREQUAL "WindowsStore" ) )
+    set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} /MT" CACHE STRING "")
+    set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} /MTd" CACHE STRING "")
+    set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} /MT" CACHE STRING "")
+    set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /MTd" CACHE STRING "")
 endif ()
 
-if (RECASTNAVIGATION_TESTS)
-    enable_testing()
-    add_subdirectory(Tests)
+if ( IOS )
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fembed-bitcode")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fembed-bitcode")
 endif ()
+
+
+project(RecastDll)
+
+find_path(RecastDll_PROJECT_DIR NAMES SConstruct
+    PATHS
+    ${CMAKE_SOURCE_DIR}
+    NO_DEFAULT_PATH
+)
+
+MARK_AS_ADVANCED(RecastDll_PROJECT_DIR)
+
+# 配置cpp文件
+file(GLOB RECASTDLL_SOURCES 
+	Source/*.cpp
+	Detour/Source/*.cpp 
+	DetourCrowd/Source/*.cpp 
+	DetourTileCache/Source/*.cpp 
+	Recast/Source/*.cpp
+)
+
+# 配置头文件
+include_directories(
+	Include
+	DebugUtils/Include
+	Detour/Include
+	DetourCrowd/Include
+	DetourTileCache/Include
+	Recast/Include
+)
+
+macro(source_group_by_dir proj_dir source_files)
+    if(MSVC OR APPLE)
+        get_filename_component(sgbd_cur_dir ${proj_dir} ABSOLUTE)
+        foreach(sgbd_file ${${source_files}})
+            get_filename_component(sgbd_abs_file ${sgbd_file} ABSOLUTE)
+            file(RELATIVE_PATH sgbd_fpath ${sgbd_cur_dir} ${sgbd_abs_file})
+            string(REGEX REPLACE "\(.*\)/.*" \\1 sgbd_group_name ${sgbd_fpath})
+            string(COMPARE EQUAL ${sgbd_fpath} ${sgbd_group_name} sgbd_nogroup)
+            string(REPLACE "/" "\\" sgbd_group_name ${sgbd_group_name})
+            if(sgbd_nogroup)
+                set(sgbd_group_name "\\")
+            endif(sgbd_nogroup)
+            source_group(${sgbd_group_name} FILES ${sgbd_file})
+        endforeach(sgbd_file)
+    endif(MSVC OR APPLE)
+endmacro(source_group_by_dir)
+
+source_group_by_dir(${CMAKE_CURRENT_SOURCE_DIR} RECASTDLL_SOURCES)
+
+if (APPLE)
+    if (IOS)
+        set(CMAKE_OSX_ARCHITECTURES "$(ARCHS_STANDARD)")
+        add_library(RecastDll STATIC ${RECASTDLL_SOURCES})
+    else ()
+        set(CMAKE_OSX_ARCHITECTURES "$(ARCHS_STANDARD_64_BIT)")
+        add_library(RecastDll SHARED ${RECASTDLL_SOURCES})
+    endif ()
+else ( )
+    add_library(RecastDll SHARED ${RECASTDLL_SOURCES})
+endif ( )
+
+if ( WIN32 AND NOT CYGWIN )
+    target_compile_definitions (RecastDll PRIVATE DLL_EXPORTS)
+endif ( )
+
