@@ -1,37 +1,35 @@
 <linker>
-  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+  <assembly fullname="Unity.Mono, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AIopponent" preserve="all" />
     <type fullname="AttackBehaviour" preserve="all" />
+    <type fullname="BgAutoFit" preserve="all" />
+    <type fullname="BgAutoMax" preserve="all" />
     <type fullname="Champion" preserve="all" />
     <type fullname="ChampionAnimation" preserve="all" />
     <type fullname="ChampionController" preserve="all" />
     <type fullname="ChampionShop" preserve="all" />
     <type fullname="ChampionType" preserve="all" />
-    <type fullname="FloatingText" preserve="all" />
-    <type fullname="GameData" preserve="all" />
-    <type fullname="GamePlayController" preserve="all" />
-    <type fullname="HealthBar" preserve="all" />
-    <type fullname="InputController" preserve="all" />
-    <type fullname="Map" preserve="all" />
-    <type fullname="Projectile" preserve="all" />
-    <type fullname="WorldCanvasController" preserve="all" />
-    <type fullname="ChampionBonus" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="Unity.Mono, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="BgAutoFit" preserve="all" />
-    <type fullname="BgAutoMax" preserve="all" />
     <type fullname="CircleImage" preserve="all" />
     <type fullname="EmptyGraphic" preserve="all" />
     <type fullname="ET.BackgroundBlur" preserve="all" />
     <type fullname="ET.CanvasRaycastFilter" preserve="all" />
     <type fullname="ET.KeyListener" preserve="all" />
+    <type fullname="FloatingText" preserve="all" />
+    <type fullname="GameData" preserve="all" />
+    <type fullname="GamePlayController" preserve="all" />
+    <type fullname="HealthBar" preserve="all" />
     <type fullname="I18NText" preserve="all" />
+    <type fullname="InputController" preserve="all" />
+    <type fullname="Map" preserve="all" />
     <type fullname="PointerClick" preserve="all" />
     <type fullname="PointerMask" preserve="all" />
+    <type fullname="Projectile" preserve="all" />
     <type fullname="RedDotMonoView" preserve="all" />
     <type fullname="ReferenceCollector" preserve="all" />
     <type fullname="UIScriptCreator" preserve="all" />
+    <type fullname="WorldCanvasController" preserve="all" />
     <type fullname="ReferenceCollectorData" preserve="nothing" serialized="true" />
+    <type fullname="ChampionBonus" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
