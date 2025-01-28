@@ -1,4 +1,7 @@
 #!/bin/bash
+service apache2 restart
+echo "Apache2 服务已启动。"
+
 nohup sh -c 'cd /usr/mongodb && bin/mongod -f /etc/mongodb/conf/mongodb.conf' >/dev/null 2>&1  &
 echo "MongoDB 服务已启动。"
 
