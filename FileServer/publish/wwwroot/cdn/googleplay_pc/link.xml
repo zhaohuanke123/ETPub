@@ -1,6 +1,7 @@
 <linker>
   <assembly fullname="Unity.Mono, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AIopponent" preserve="all" />
+    <type fullname="AttackBehaviour" preserve="all" />
     <type fullname="BgAutoFit" preserve="all" />
     <type fullname="BgAutoMax" preserve="all" />
     <type fullname="Champion" preserve="all" />
