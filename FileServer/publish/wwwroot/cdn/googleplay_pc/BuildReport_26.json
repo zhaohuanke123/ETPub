@@ -2,28 +2,28 @@
     "Summary": {
         "YooVersion": "1.2.4",
         "UnityVersion": "2020.3.33f1",
-        "BuildDate": "2/1/2025 6:10:24 PM",
-        "BuildSeconds": 8,
+        "BuildDate": "2/1/2025 6:13:47 PM",
+        "BuildSeconds": 7,
         "BuildTarget": 19,
         "BuildPipeline": 1,
-        "BuildMode": 1,
-        "BuildVersion": 25,
+        "BuildMode": 0,
+        "BuildVersion": 26,
         "BuildinTags": "buildin",
         "EnableAddressable": true,
-        "CopyBuildinTagFiles": false,
+        "CopyBuildinTagFiles": true,
         "EncryptionServicesClassName": "YooAsset.GameEncryption",
         "OutputNameStyle": 1,
         "CompressOption": 2,
         "DisableWriteTypeTree": false,
         "IgnoreTypeTreeChanges": true,
-        "AssetFileTotalCount": 436,
-        "MainAssetTotalCount": 292,
-        "AllBundleTotalCount": 47,
-        "AllBundleTotalSize": 48759880,
-        "BuildinBundleTotalCount": 30,
-        "BuildinBundleTotalSize": 19354346,
-        "EncryptedBundleTotalCount": 47,
-        "EncryptedBundleTotalSize": 48759880,
+        "AssetFileTotalCount": 438,
+        "MainAssetTotalCount": 294,
+        "AllBundleTotalCount": 48,
+        "AllBundleTotalSize": 49301122,
+        "BuildinBundleTotalCount": 31,
+        "BuildinBundleTotalSize": 19895588,
+        "EncryptedBundleTotalCount": 48,
+        "EncryptedBundleTotalSize": 49301122,
         "RawBundleTotalCount": 0,
         "RawBundleTotalSize": 0
     },
@@ -253,9 +253,7 @@
             ],
             "MainBundleName": "assets/assetspackage/uigames/uigalgame.bundle",
             "MainBundleSize": 269775,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -267,9 +265,7 @@
             ],
             "MainBundleName": "assets/assetspackage/uigames/uigalgame.bundle",
             "MainBundleSize": 269775,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -281,9 +277,7 @@
             ],
             "MainBundleName": "assets/assetspackage/uigames/uigalgame.bundle",
             "MainBundleSize": 269775,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -295,9 +289,7 @@
             ],
             "MainBundleName": "assets/assetspackage/uigames/uigalgame.bundle",
             "MainBundleSize": 269775,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -309,9 +301,7 @@
             ],
             "MainBundleName": "assets/assetspackage/uigames/uigalgame.bundle",
             "MainBundleSize": 269775,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -323,9 +313,7 @@
             ],
             "MainBundleName": "assets/assetspackage/uigames/uigalgame.bundle",
             "MainBundleSize": 269775,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -337,9 +325,7 @@
             ],
             "MainBundleName": "assets/assetspackage/uigames/uigalgame.bundle",
             "MainBundleSize": 269775,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -453,9 +439,7 @@
             ],
             "MainBundleName": "assets/assetspackage/uigames/uigalgame.bundle",
             "MainBundleSize": 269775,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": [
                 "Assets/AssetsPackage/UIGames/UIGalGame/Prefabs/Character.prefab"
             ]
@@ -693,9 +677,7 @@
             ],
             "MainBundleName": "assets/assetspackage/renderassets.bundle",
             "MainBundleSize": 1751904,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -792,9 +774,7 @@
             ],
             "MainBundleName": "assets/assetspackage/scenes/loadingscene.bundle",
             "MainBundleSize": 8174,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -806,9 +786,7 @@
             ],
             "MainBundleName": "assets/assetspackage/fonts.bundle",
             "MainBundleSize": 11376462,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -837,9 +815,7 @@
             ],
             "MainBundleName": "assets/assetspackage/fonts.bundle",
             "MainBundleSize": 11376462,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -868,9 +844,7 @@
             ],
             "MainBundleName": "assets/assetspackage/fonts.bundle",
             "MainBundleSize": 11376462,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -881,7 +855,7 @@
                 "buildin"
             ],
             "MainBundleName": "assets/assetspackage.bundle",
-            "MainBundleSize": 1327,
+            "MainBundleSize": 1326,
             "DependBundles": [],
             "DependAssets": []
         },
@@ -894,9 +868,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/common.bundle",
             "MainBundleSize": 68406,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -955,8 +927,7 @@
             "MainBundleName": "assets/assetspackage/ui/common.bundle",
             "MainBundleSize": 68406,
             "DependBundles": [
-                "assets/assetspackage/uigames/uichess.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/uigames/uichess.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/Common/Atlas.spriteatlas",
@@ -1018,9 +989,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uibag.bundle",
             "MainBundleSize": 182520,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1032,9 +1001,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uibag.bundle",
             "MainBundleSize": 182520,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/UIBag/Atlas.spriteatlas"
             ]
@@ -1156,9 +1123,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uibattle.bundle",
             "MainBundleSize": 263317,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1171,8 +1136,7 @@
             "MainBundleName": "assets/assetspackage/ui/uibattle.bundle",
             "MainBundleSize": 263317,
             "DependBundles": [
-                "assets/assetspackage/uigames/uichess.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/uigames/uichess.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UIGames/UIChess/DiscreteImages/coin 64.png"
@@ -1242,8 +1206,7 @@
             "MainBundleName": "assets/assetspackage/ui/uibattle.bundle",
             "MainBundleSize": 263317,
             "DependBundles": [
-                "share_assets/synty/interfacefantasywarriorhud/materials.bundle",
-                "unityshaders.bundle"
+                "share_assets/synty/interfacefantasywarriorhud/materials.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/UIBattle/Atlas.spriteatlas",
@@ -1261,8 +1224,7 @@
             "MainBundleName": "assets/assetspackage/ui/uibattle.bundle",
             "MainBundleSize": 263317,
             "DependBundles": [
-                "assets/assetspackage/uigames/uichess.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/uigames/uichess.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UIGames/UIChess/DiscreteImages/fire icon 1.png"
@@ -1278,8 +1240,7 @@
             "MainBundleName": "assets/assetspackage/ui/uibattle.bundle",
             "MainBundleSize": 263317,
             "DependBundles": [
-                "assets/assetspackage/ui/common.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/ui/common.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/Common/Atlas.spriteatlas",
@@ -1326,8 +1287,7 @@
             "MainBundleName": "assets/assetspackage/ui/uibattle.bundle",
             "MainBundleSize": 263317,
             "DependBundles": [
-                "assets/assetspackage/uigames/uichess.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/uigames/uichess.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/UIBattle/Prefabs/coin.prefab",
@@ -1401,9 +1361,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uicomfirmdialog.bundle",
             "MainBundleSize": 13792,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1436,9 +1394,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uicommon.bundle",
             "MainBundleSize": 14313,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1482,9 +1438,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uicommon.bundle",
             "MainBundleSize": 14313,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1496,9 +1450,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uiguidance.bundle",
             "MainBundleSize": 7156,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1597,9 +1549,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uihelp.bundle",
             "MainBundleSize": 12761,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1630,9 +1580,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uiloading.bundle",
             "MainBundleSize": 135962,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/UILoading/Atlas.spriteatlas"
             ]
@@ -1646,9 +1594,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uiloading.bundle",
             "MainBundleSize": 135962,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/UILoading/Atlas.spriteatlas",
                 "Assets/AssetsPackage/UI/UILoading/Animations/loading_rotate_0.anim"
@@ -1663,9 +1609,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uiloading.bundle",
             "MainBundleSize": 135962,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1677,9 +1621,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uiloading.bundle",
             "MainBundleSize": 135962,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1694,8 +1636,7 @@
             "DependBundles": [
                 "assets/assetspackage/ui/common.bundle",
                 "assets/assetspackage/ui/uicommon.bundle",
-                "assets/assetspackage/uigames/uichess.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/uigames/uichess.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/Common/Atlas.spriteatlas",
@@ -1715,9 +1656,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uilobby.bundle",
             "MainBundleSize": 13915,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1759,9 +1698,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uilogin.bundle",
             "MainBundleSize": 21202,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1799,9 +1736,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uisetting.bundle",
             "MainBundleSize": 15798,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1835,9 +1770,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uitoast.bundle",
             "MainBundleSize": 135544,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": [
                 "Assets/Synty/InterfaceFantasyWarriorHUD/Animation/Clips/ANIM_HUD_FantasyWarrior_Tooltip01_In.anim",
                 "Assets/AssetsPackage/UI/UIToast/Animator/ANIM_HUD_FAntasyWarrior_Tooltip01_Out.anim",
@@ -1853,9 +1786,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uitoast.bundle",
             "MainBundleSize": 135544,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1867,9 +1798,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uitoast.bundle",
             "MainBundleSize": 135544,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1881,9 +1810,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uitoast.bundle",
             "MainBundleSize": 135544,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1895,9 +1822,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uitoast.bundle",
             "MainBundleSize": 135544,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1974,9 +1899,7 @@
             ],
             "MainBundleName": "assets/assetspackage/ui/uiupdate.bundle",
             "MainBundleSize": 113989,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -1990,8 +1913,7 @@
             "MainBundleSize": 113989,
             "DependBundles": [
                 "assets/assetspackage/ui/uicommon.bundle",
-                "assets/assetspackage/fonts.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/fonts.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/UICommon/Atlas.spriteatlas",
@@ -2012,8 +1934,7 @@
                 "assets/assetspackage/ui/uicommon.bundle",
                 "assets/assetspackage/fonts.bundle",
                 "assets/assetspackage/ui/uiloading.bundle",
-                "assets/assetspackage/uigames/uichess.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/uigames/uichess.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UI/Common/Atlas.spriteatlas",
@@ -2460,6 +2381,30 @@
             "DependAssets": [
                 "Assets/AssetsPackage/Audio/Common/Sound.mixer"
             ]
+        },
+        {
+            "Address": "Code/Hotfix/Code20.dll.bytes",
+            "AssetPath": "Assets/AssetsPackage/Code/Hotfix/Code20.dll.bytes",
+            "AssetGUID": "dd036d75bdfb9c544a6d78a5eced0471",
+            "AssetTags": [
+                "buildin"
+            ],
+            "MainBundleName": "assets/assetspackage/code/hotfix.bundle",
+            "MainBundleSize": 541243,
+            "DependBundles": [],
+            "DependAssets": []
+        },
+        {
+            "Address": "Code/Hotfix/Code20.pdb.bytes",
+            "AssetPath": "Assets/AssetsPackage/Code/Hotfix/Code20.pdb.bytes",
+            "AssetGUID": "6883888b06133984eb1ccc265f49b075",
+            "AssetTags": [
+                "buildin"
+            ],
+            "MainBundleName": "assets/assetspackage/code/hotfix.bundle",
+            "MainBundleSize": 541243,
+            "DependBundles": [],
+            "DependAssets": []
         },
         {
             "Address": "GameAssets/Chess/Champions/Fire Archer.prefab",
@@ -3569,9 +3514,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3583,9 +3526,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3597,9 +3538,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3611,9 +3550,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3625,9 +3562,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3639,9 +3574,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3653,9 +3586,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3667,9 +3598,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3681,9 +3610,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3695,9 +3622,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3709,9 +3634,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3723,9 +3646,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3737,9 +3658,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3751,9 +3670,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3765,9 +3682,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3779,9 +3694,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3793,9 +3706,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3807,9 +3718,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3821,9 +3730,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3835,9 +3742,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3849,9 +3754,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3863,9 +3766,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3877,9 +3778,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3891,9 +3790,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3905,9 +3802,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3919,9 +3814,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3933,9 +3826,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3947,9 +3838,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3961,9 +3850,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -3995,8 +3882,7 @@
             "MainBundleName": "assets/assetspackage/gameassets/chess.bundle",
             "MainBundleSize": 24828267,
             "DependBundles": [
-                "assets/assetspackage/uigames/uichess.bundle",
-                "unityshaders.bundle"
+                "assets/assetspackage/uigames/uichess.bundle"
             ],
             "DependAssets": [
                 "Assets/AssetsPackage/UIGames/UIChess/DiscreteImages/healthbar.png"
@@ -4172,9 +4058,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/skillpreview.bundle",
             "MainBundleSize": 59953,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": [
                 "Assets/AssetsPackage/GameAssets/SkillPreview/Textures/TargetSelect.png"
             ]
@@ -4206,9 +4090,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/skillpreview.bundle",
             "MainBundleSize": 59953,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4220,9 +4102,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/skillpreview.bundle",
             "MainBundleSize": 59953,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4234,9 +4114,7 @@
             ],
             "MainBundleName": "assets/assetspackage/gameassets/skillpreview.bundle",
             "MainBundleSize": 59953,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4248,9 +4126,7 @@
             ],
             "MainBundleName": "assets/assetspackage/buff/buff_1001.bundle",
             "MainBundleSize": 50885,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4375,9 +4251,7 @@
             ],
             "MainBundleName": "assets/assetspackage/buff/buff_1001.bundle",
             "MainBundleSize": 50885,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4527,9 +4401,7 @@
             ],
             "MainBundleName": "assets/assetspackage/skill/skill_1000.bundle",
             "MainBundleSize": 300197,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4541,9 +4413,7 @@
             ],
             "MainBundleName": "assets/assetspackage/skill/skill_1000.bundle",
             "MainBundleSize": 300197,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4555,9 +4425,7 @@
             ],
             "MainBundleName": "assets/assetspackage/skill/skill_1000.bundle",
             "MainBundleSize": 300197,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4569,9 +4437,7 @@
             ],
             "MainBundleName": "assets/assetspackage/skill/skill_1000.bundle",
             "MainBundleSize": 300197,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4583,9 +4449,7 @@
             ],
             "MainBundleName": "assets/assetspackage/skill/skill_1000.bundle",
             "MainBundleSize": 300197,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4705,9 +4569,7 @@
             ],
             "MainBundleName": "assets/assetspackage/skill/skill_1002.bundle",
             "MainBundleSize": 137330,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4719,9 +4581,7 @@
             ],
             "MainBundleName": "assets/assetspackage/skill/skill_1002.bundle",
             "MainBundleSize": 137330,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -4733,9 +4593,7 @@
             ],
             "MainBundleName": "assets/assetspackage/skill/skill_1002.bundle",
             "MainBundleSize": 137330,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -5021,9 +4879,7 @@
             ],
             "MainBundleName": "assets/assetspackage/unit/skeleton.bundle",
             "MainBundleSize": 1443563,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -5035,9 +4891,7 @@
             ],
             "MainBundleName": "assets/assetspackage/scenes/loginscene.bundle",
             "MainBundleSize": 90091,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -5049,9 +4903,7 @@
             ],
             "MainBundleName": "assets/assetspackage/scenes/mapscene.bundle",
             "MainBundleSize": 9207,
-            "DependBundles": [
-                "unityshaders.bundle"
-            ],
+            "DependBundles": [],
             "DependAssets": []
         },
         {
@@ -5289,10 +5141,10 @@
         },
         {
             "BundleName": "assets/assetspackage.bundle",
-            "FileName": "e8a2e0a6dded51484a1aff1461b0d11c",
-            "FileHash": "e8a2e0a6dded51484a1aff1461b0d11c",
-            "FileCRC": "a045251a",
-            "FileSize": 1327,
+            "FileName": "434b7805971f68a7c55ef050787eb906",
+            "FileHash": "434b7805971f68a7c55ef050787eb906",
+            "FileCRC": "e629da13",
+            "FileSize": 1326,
             "Tags": [
                 "buildin"
             ],
@@ -5485,6 +5337,17 @@
             "FileHash": "3cb1cb4d79447a9fa0c72599d43c66e1",
             "FileCRC": "65d2ae58",
             "FileSize": 4719,
+            "Tags": [
+                "buildin"
+            ],
+            "Flags": 3
+        },
+        {
+            "BundleName": "assets/assetspackage/code/hotfix.bundle",
+            "FileName": "7e47c04400cde23288d9496025511efd",
+            "FileHash": "7e47c04400cde23288d9496025511efd",
+            "FileCRC": "67168911",
+            "FileSize": 541243,
             "Tags": [
                 "buildin"
             ],
