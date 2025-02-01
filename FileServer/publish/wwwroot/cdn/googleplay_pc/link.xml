@@ -7,8 +7,6 @@
     <type fullname="BgAutoFit" preserve="all" />
     <type fullname="BgAutoMax" preserve="all" />
     <type fullname="Champion" preserve="all" />
-    <type fullname="ChampionAnimation" preserve="all" />
-    <type fullname="ChampionController" preserve="all" />
     <type fullname="ChampionType" preserve="all" />
     <type fullname="CircleImage" preserve="all" />
     <type fullname="EmptyGraphic" preserve="all" />
@@ -76,15 +74,17 @@
     <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ThirdParty, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="SuperScrollView.LoopGridView" preserve="all" />
+    <type fullname="SuperScrollView.LoopGridViewItem" preserve="all" />
     <type fullname="SuperScrollView.LoopListView2" preserve="all" />
     <type fullname="SuperScrollView.LoopListViewItem2" preserve="all" />
     <type fullname="SuperScrollView.ItemPrefabConfData" preserve="nothing" serialized="true" />
+    <type fullname="SuperScrollView.GridViewItemPrefabConfData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
     <type fullname="UnityEngine.AI.NavMeshData" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
