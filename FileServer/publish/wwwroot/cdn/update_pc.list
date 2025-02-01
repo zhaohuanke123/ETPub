@@ -2,7 +2,7 @@
     "_t": "UpdateConfig",
     "res_list": {
         "steam": {
-            "26": {
+            "30": {
                 "_t": "Resver",
                 "channel": [
                     "all"
