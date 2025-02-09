@@ -3,17 +3,15 @@
     <type fullname="Synty.Interface.FantasyWarriorHUD.Samples.SampleScrollUV" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Mono, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AnimationCollector" preserve="all" />
     <type fullname="AttackBehaviour" preserve="all" />
     <type fullname="BgAutoFit" preserve="all" />
     <type fullname="BgAutoMax" preserve="all" />
-    <type fullname="Champion" preserve="all" />
-    <type fullname="ChampionType" preserve="all" />
     <type fullname="CircleImage" preserve="all" />
     <type fullname="EmptyGraphic" preserve="all" />
     <type fullname="ET.BackgroundBlur" preserve="all" />
     <type fullname="ET.CanvasRaycastFilter" preserve="all" />
     <type fullname="ET.KeyListener" preserve="all" />
-    <type fullname="GameData" preserve="all" />
     <type fullname="I18NText" preserve="all" />
     <type fullname="Map" preserve="all" />
     <type fullname="PointerClick" preserve="all" />
@@ -22,8 +20,10 @@
     <type fullname="RedDotMonoView" preserve="all" />
     <type fullname="ReferenceCollector" preserve="all" />
     <type fullname="UIScriptCreator" preserve="all" />
+    <type fullname="UnityPlayableController" preserve="all" />
+    <type fullname="AniClipLoadData" preserve="nothing" serialized="true" />
+    <type fullname="AnimationCollectorData" preserve="nothing" serialized="true" />
     <type fullname="ReferenceCollectorData" preserve="nothing" serialized="true" />
-    <type fullname="ChampionBonus" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
