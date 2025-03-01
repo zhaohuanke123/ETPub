@@ -1,7 +1,4 @@
 <linker>
-  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Synty.Interface.FantasyWarriorHUD.Samples.SampleScrollUV" preserve="all" />
-  </assembly>
   <assembly fullname="Unity.Mono, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AnimationCollector" preserve="all" />
     <type fullname="AttackBehaviour" preserve="all" />
