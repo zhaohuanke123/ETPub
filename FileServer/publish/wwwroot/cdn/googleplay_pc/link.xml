@@ -1,8 +1,4 @@
 <linker>
-  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="AutoDestroyPS" preserve="all" />
-    <type fullname="ProjectileMover" preserve="all" />
-  </assembly>
   <assembly fullname="Unity.Mono, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AnimationCollector" preserve="all" />
     <type fullname="AttackBehaviour" preserve="all" />
@@ -113,6 +109,7 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.RenderSettings" preserve="all" />
